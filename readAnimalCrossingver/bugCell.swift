@@ -7,15 +7,15 @@
 
 import UIKit
 
-class myCell: UITableViewCell {
+class bugCell: UITableViewCell {
     
-    static let identifier = "myCell"
+    static let identifier = "bugCell"
 
-    @IBOutlet weak var animalImageView: UIImageView!
-    @IBOutlet weak var nameLabel: UILabel!
-    @IBOutlet weak var priceLabel: UILabel!
-    @IBOutlet weak var northWeatherLabel: UILabel!
-    @IBOutlet weak var southWeatherLabel: UILabel!
+    @IBOutlet weak var bugImageView: UIImageView!
+    @IBOutlet weak var bugNameLabel: UILabel!
+    @IBOutlet weak var bugPriceLabel: UILabel!
+    @IBOutlet weak var bugNorthWeatherLabel: UILabel!
+    @IBOutlet weak var bugSouthWeatherLabel: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -27,11 +27,11 @@ class myCell: UITableViewCell {
 
         // Configure the view for the selected state
         func setData(_ BugData: BugList){
-            animalImageView.image = BugData.image
-            nameLabel.text = BugData.name
-            priceLabel.text = BugData.price
-            northWeatherLabel.text = BugData.weatherNorth
-            southWeatherLabel.text = BugData.weatherSouth
+            bugImageView.image = BugData.image
+            bugNameLabel.text = BugData.name
+            bugPriceLabel.text = BugData.price
+            bugNorthWeatherLabel.text = BugData.weatherNorth
+            bugSouthWeatherLabel.text = BugData.weatherSouth
         
         }
     }

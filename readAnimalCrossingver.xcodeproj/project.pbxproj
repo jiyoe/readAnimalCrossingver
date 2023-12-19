@@ -13,9 +13,9 @@
 		0A05D9802B2C94310078DDD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A05D97F2B2C94310078DDD0 /* Assets.xcassets */; };
 		0A05D9832B2C94310078DDD0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A05D9812B2C94310078DDD0 /* LaunchScreen.storyboard */; };
 		0A05D98B2B2C94CA0078DDD0 /* BugList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A05D98A2B2C94CA0078DDD0 /* BugList.swift */; };
-		0A05D9932B2FD87B0078DDD0 /* viewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A05D9922B2FD87B0078DDD0 /* viewController.swift */; };
-		0A05D9962B3005670078DDD0 /* myCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A05D9942B3005670078DDD0 /* myCell.swift */; };
-		0A05D9972B3005670078DDD0 /* myCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A05D9952B3005670078DDD0 /* myCell.xib */; };
+		0A05D9932B2FD87B0078DDD0 /* bugViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A05D9922B2FD87B0078DDD0 /* bugViewController.swift */; };
+		0A05D9962B3005670078DDD0 /* bugCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A05D9942B3005670078DDD0 /* bugCell.swift */; };
+		0A05D9972B3005670078DDD0 /* bugCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A05D9952B3005670078DDD0 /* bugCell.xib */; };
 		0A05D9C02B30118D0078DDD0 /* 여치.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A05D9992B30118C0078DDD0 /* 여치.png */; };
 		0A05D9C12B30118D0078DDD0 /* 참매미.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A05D99A2B30118C0078DDD0 /* 참매미.png */; };
 		0A05D9C22B30118D0078DDD0 /* 고추잠자리.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A05D99B2B30118C0078DDD0 /* 고추잠자리.png */; };
@@ -55,6 +55,16 @@
 		0A05D9E42B30118D0078DDD0 /* 매미허물.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A05D9BD2B30118D0078DDD0 /* 매미허물.png */; };
 		0A05D9E52B30118D0078DDD0 /* 물포나비.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A05D9BE2B30118D0078DDD0 /* 물포나비.png */; };
 		0A05D9E62B30118D0078DDD0 /* 애매미.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A05D9BF2B30118D0078DDD0 /* 애매미.png */; };
+		0A05D9E82B31360C0078DDD0 /* fossil.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A05D9E72B31360C0078DDD0 /* fossil.png */; };
+		0A05D9F02B3137D70078DDD0 /* 납줄개.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A05D9EF2B3137D70078DDD0 /* 납줄개.png */; };
+		0A05D9F22B313CCB0078DDD0 /* fishList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A05D9F12B313CCB0078DDD0 /* fishList.swift */; };
+		0A05D9F72B3177CA0078DDD0 /* fossilList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A05D9F62B3177CA0078DDD0 /* fossilList.swift */; };
+		0A05D9F92B3178610078DDD0 /* fishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A05D9F82B3178610078DDD0 /* fishViewController.swift */; };
+		0A05D9FB2B31786E0078DDD0 /* fossilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A05D9FA2B31786E0078DDD0 /* fossilViewController.swift */; };
+		0A05DA082B3182860078DDD0 /* fishCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A05DA062B3182860078DDD0 /* fishCell.swift */; };
+		0A05DA092B3182860078DDD0 /* fishCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A05DA072B3182860078DDD0 /* fishCell.xib */; };
+		0A05DA0C2B3183460078DDD0 /* fossilCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A05DA0A2B3183460078DDD0 /* fossilCell.swift */; };
+		0A05DA0D2B3183460078DDD0 /* fossilCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A05DA0B2B3183460078DDD0 /* fossilCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,9 +76,9 @@
 		0A05D9822B2C94310078DDD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0A05D9842B2C94310078DDD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A05D98A2B2C94CA0078DDD0 /* BugList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BugList.swift; sourceTree = "<group>"; };
-		0A05D9922B2FD87B0078DDD0 /* viewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewController.swift; sourceTree = "<group>"; };
-		0A05D9942B3005670078DDD0 /* myCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myCell.swift; sourceTree = "<group>"; };
-		0A05D9952B3005670078DDD0 /* myCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = myCell.xib; sourceTree = "<group>"; };
+		0A05D9922B2FD87B0078DDD0 /* bugViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bugViewController.swift; sourceTree = "<group>"; };
+		0A05D9942B3005670078DDD0 /* bugCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bugCell.swift; sourceTree = "<group>"; };
+		0A05D9952B3005670078DDD0 /* bugCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = bugCell.xib; sourceTree = "<group>"; };
 		0A05D9992B30118C0078DDD0 /* 여치.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "여치.png"; sourceTree = "<group>"; };
 		0A05D99A2B30118C0078DDD0 /* 참매미.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "참매미.png"; sourceTree = "<group>"; };
 		0A05D99B2B30118C0078DDD0 /* 고추잠자리.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "고추잠자리.png"; sourceTree = "<group>"; };
@@ -108,6 +118,17 @@
 		0A05D9BD2B30118D0078DDD0 /* 매미허물.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "매미허물.png"; sourceTree = "<group>"; };
 		0A05D9BE2B30118D0078DDD0 /* 물포나비.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "물포나비.png"; sourceTree = "<group>"; };
 		0A05D9BF2B30118D0078DDD0 /* 애매미.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "애매미.png"; sourceTree = "<group>"; };
+		0A05D9E72B31360C0078DDD0 /* fossil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fossil.png; path = ../../../../fossil.png; sourceTree = "<group>"; };
+		0A05D9EE2B3137C90078DDD0 /* fossil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fossil.png; sourceTree = "<group>"; };
+		0A05D9EF2B3137D70078DDD0 /* 납줄개.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "납줄개.png"; path = "../../../../../납줄개.png"; sourceTree = "<group>"; };
+		0A05D9F12B313CCB0078DDD0 /* fishList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fishList.swift; sourceTree = "<group>"; };
+		0A05D9F62B3177CA0078DDD0 /* fossilList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fossilList.swift; sourceTree = "<group>"; };
+		0A05D9F82B3178610078DDD0 /* fishViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fishViewController.swift; sourceTree = "<group>"; };
+		0A05D9FA2B31786E0078DDD0 /* fossilViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fossilViewController.swift; sourceTree = "<group>"; };
+		0A05DA062B3182860078DDD0 /* fishCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fishCell.swift; sourceTree = "<group>"; };
+		0A05DA072B3182860078DDD0 /* fishCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = fishCell.xib; sourceTree = "<group>"; };
+		0A05DA0A2B3183460078DDD0 /* fossilCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fossilCell.swift; sourceTree = "<group>"; };
+		0A05DA0B2B3183460078DDD0 /* fossilCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = fossilCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,19 +164,36 @@
 				0A05D9982B30117F0078DDD0 /* image */,
 				0A05D9762B2C942F0078DDD0 /* AppDelegate.swift */,
 				0A05D9782B2C942F0078DDD0 /* SceneDelegate.swift */,
-				0A05D9922B2FD87B0078DDD0 /* viewController.swift */,
-				0A05D98A2B2C94CA0078DDD0 /* BugList.swift */,
+				0A05D9922B2FD87B0078DDD0 /* bugViewController.swift */,
+				0A05D9F82B3178610078DDD0 /* fishViewController.swift */,
+				0A05D9FA2B31786E0078DDD0 /* fossilViewController.swift */,
 				0A05D97C2B2C942F0078DDD0 /* Main.storyboard */,
-				0A05D97F2B2C94310078DDD0 /* Assets.xcassets */,
-				0A05D9942B3005670078DDD0 /* myCell.swift */,
-				0A05D9952B3005670078DDD0 /* myCell.xib */,
+				0A05D9F52B313D030078DDD0 /* animalList */,
+				0A05D9942B3005670078DDD0 /* bugCell.swift */,
+				0A05D9952B3005670078DDD0 /* bugCell.xib */,
+				0A05DA0A2B3183460078DDD0 /* fossilCell.swift */,
+				0A05DA0B2B3183460078DDD0 /* fossilCell.xib */,
+				0A05DA062B3182860078DDD0 /* fishCell.swift */,
+				0A05DA072B3182860078DDD0 /* fishCell.xib */,
 				0A05D9812B2C94310078DDD0 /* LaunchScreen.storyboard */,
+				0A05D97F2B2C94310078DDD0 /* Assets.xcassets */,
 				0A05D9842B2C94310078DDD0 /* Info.plist */,
 			);
 			path = readAnimalCrossingver;
 			sourceTree = "<group>";
 		};
 		0A05D9982B30117F0078DDD0 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				0A05D9ED2B3137C30078DDD0 /* 화석 */,
+				0A05D9EC2B3137BA0078DDD0 /* 물고기 */,
+				0A05D9EB2B3137980078DDD0 /* 곤충 */,
+				0A05D9E72B31360C0078DDD0 /* fossil.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		0A05D9EB2B3137980078DDD0 /* 곤충 */ = {
 			isa = PBXGroup;
 			children = (
 				0A05D99B2B30118C0078DDD0 /* 고추잠자리.png */,
@@ -198,7 +236,36 @@
 				0A05D9B82B30118D0078DDD0 /* 청띠제비나비.png */,
 				0A05D99F2B30118C0078DDD0 /* 호랑나비.png */,
 			);
-			path = image;
+			name = "곤충";
+			path = "곤충";
+			sourceTree = "<group>";
+		};
+		0A05D9EC2B3137BA0078DDD0 /* 물고기 */ = {
+			isa = PBXGroup;
+			children = (
+				0A05D9EF2B3137D70078DDD0 /* 납줄개.png */,
+			);
+			name = "물고기";
+			path = "물고기";
+			sourceTree = "<group>";
+		};
+		0A05D9ED2B3137C30078DDD0 /* 화석 */ = {
+			isa = PBXGroup;
+			children = (
+				0A05D9EE2B3137C90078DDD0 /* fossil.png */,
+			);
+			name = "화석";
+			path = "화석";
+			sourceTree = "<group>";
+		};
+		0A05D9F52B313D030078DDD0 /* animalList */ = {
+			isa = PBXGroup;
+			children = (
+				0A05D98A2B2C94CA0078DDD0 /* BugList.swift */,
+				0A05D9F12B313CCB0078DDD0 /* fishList.swift */,
+				0A05D9F62B3177CA0078DDD0 /* fossilList.swift */,
+			);
+			path = animalList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,18 +331,22 @@
 				0A05D9E52B30118D0078DDD0 /* 물포나비.png in Resources */,
 				0A05D9DD2B30118D0078DDD0 /* 사마귀.png in Resources */,
 				0A05D9C52B30118D0078DDD0 /* 곰매미.png in Resources */,
+				0A05DA092B3182860078DDD0 /* fishCell.xib in Resources */,
 				0A05D9CE2B30118D0078DDD0 /* 쏘르라미.png in Resources */,
 				0A05D9C92B30118D0078DDD0 /* 물방개.png in Resources */,
 				0A05D9C22B30118D0078DDD0 /* 고추잠자리.png in Resources */,
 				0A05D9D52B30118D0078DDD0 /* 마다가스카르비단제비나방.png in Resources */,
-				0A05D9972B3005670078DDD0 /* myCell.xib in Resources */,
+				0A05D9972B3005670078DDD0 /* bugCell.xib in Resources */,
 				0A05D9C42B30118D0078DDD0 /* 방울벌레.png in Resources */,
+				0A05DA0D2B3183460078DDD0 /* fossilCell.xib in Resources */,
 				0A05D9DE2B30118D0078DDD0 /* 나방.png in Resources */,
 				0A05D9C32B30118D0078DDD0 /* 섬풀무치.png in Resources */,
 				0A05D9E22B30118D0078DDD0 /* 메뚜기.png in Resources */,
 				0A05D9CF2B30118D0078DDD0 /* 유지매미.png in Resources */,
 				0A05D9CC2B30118D0078DDD0 /* 땅강아지.png in Resources */,
+				0A05D9F02B3137D70078DDD0 /* 납줄개.png in Resources */,
 				0A05D9C62B30118D0078DDD0 /* 호랑나비.png in Resources */,
+				0A05D9E82B31360C0078DDD0 /* fossil.png in Resources */,
 				0A05D9DB2B30118D0078DDD0 /* 제비나비.png in Resources */,
 				0A05D9CD2B30118D0078DDD0 /* 방아깨비.png in Resources */,
 				0A05D9C02B30118D0078DDD0 /* 여치.png in Resources */,
@@ -312,11 +383,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A05D9932B2FD87B0078DDD0 /* viewController.swift in Sources */,
+				0A05D9932B2FD87B0078DDD0 /* bugViewController.swift in Sources */,
+				0A05D9FB2B31786E0078DDD0 /* fossilViewController.swift in Sources */,
 				0A05D9772B2C942F0078DDD0 /* AppDelegate.swift in Sources */,
-				0A05D9962B3005670078DDD0 /* myCell.swift in Sources */,
+				0A05D9962B3005670078DDD0 /* bugCell.swift in Sources */,
+				0A05D9F22B313CCB0078DDD0 /* fishList.swift in Sources */,
+				0A05D9F92B3178610078DDD0 /* fishViewController.swift in Sources */,
+				0A05DA0C2B3183460078DDD0 /* fossilCell.swift in Sources */,
 				0A05D98B2B2C94CA0078DDD0 /* BugList.swift in Sources */,
 				0A05D9792B2C942F0078DDD0 /* SceneDelegate.swift in Sources */,
+				0A05DA082B3182860078DDD0 /* fishCell.swift in Sources */,
+				0A05D9F72B3177CA0078DDD0 /* fossilList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
